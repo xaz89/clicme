@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src:
+    url('../font/BebasNeue.eot?#iefix') format('embedded-opentype'),
+    url('../font/BebasNeue.otf') format('opentype'),
+    url('../font/BebasNeue.woff') format('woff'),
+    url('../font/BebasNeue.ttf') format('truetype'),
+    url('../font/BebasNeue.svg#BebasNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITCAvantGardePro-Bk';
+    src:
+    url('../font/ITCAvantGardePro-Bk.eot?#iefix') format('embedded-opentype'),
+    url('../font/ITCAvantGardePro-Bk.otf') format('opentype'),
+    url('../font/ITCAvantGardePro-Bk.woff') format('woff'),
+    url('../font/ITCAvantGardePro-Bk.ttf') format('truetype'),
+    url('../font/ITCAvantGardePro-Bk.svg#BebasNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITCAvantGardePro-Bold';
+    src:
+    url('../font/ITCAvantGardePro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../font/ITCAvantGardePro-Bold.otf') format('opentype'),
+    url('../font/ITCAvantGardePro-Bold.woff') format('woff'),
+    url('../font/ITCAvantGardePro-Bold.ttf') format('truetype'),
+    url('../font/ITCAvantGardePro-Bold.svg#BebasNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'ITCAvantGardePro-Bk';
+    font-size: .8em;
+}
+
+h2 {
+    font-family: 'ITCAvantGardePro-Bold';
+}
+
+
+
+.navbar {
+    background: url('../img/menu.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    background: url('../img/menu.png');
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: #00ff84!important;
+    font-family: 'BebasNeue';
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
+
+.navbar a:hover {
+    color: white!important;
+    background: #00ff84;
+
+}
+
+.navbar-brand {
+    width: 227px;
+    height: 77px;
+}
+
+.carousel h1 {
+    font-family: 'ITCAvantGardePro-Bold';
+    font-size: 5.1em;
+}
+
+.carousel h4 {
+    font-family: 'ITCAvantGardePro-Bold';
+    font-size: 3.3em;
+}
+
+.h-77px {
+    height: 77px;
+    
+}
+
+.btn-conocenos {
+    font-family: 'BebasNeue';
+    font-size: 1.3em;
+    letter-spacing: .2em;
+    background: #131313;
+    border: 0;
+    color: white;
+    padding: 0.4em 1.9em;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.btn-conocenos:hover {
+    background: linear-gradient(rgb(0, 0, 0), rgb(84, 85, 85));
+
+}
+
+.btn-clickme {
+    font-family: 'BebasNeue';
+    font-size: 1.8em;
+    letter-spacing: .2em;
+    background: linear-gradient(rgba(0,254,133,1), rgb(1, 211, 141));
+    border: 1px solid white;
+    color: white;
+    padding: 0.1em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.btn-clickme:hover {
+    background: linear-gradient(rgba(0,254,133,1), rgb(2, 158, 106));
+
+}
+
+.bg-white {
+    background: white,
+}
+.absolute {
+    position: absolute;
+}
+
+
+.Bloque02 h1 {
+    font-family: 'ITCAvantGardePro-Bold';
+    color: #00ff84!important;
+    letter-spacing: -2px;
+}
+
+.Bloque03 {
+    background: url('../img/back_ser.jpg') center;
+    color: white;
+
+}
+
+.Bloque03 h2 {
+    font-family: 'ITCAvantGardePro-Bold';
+}
+
+.Bloque03 p {
+    font-family: 'BebasNeue';
+    font-size: 1.5em;
+    letter-spacing: 0.4em;
+}
+
+
+
+.Bloque05 {
+    background: #141414;
+    color: white;
+    
+}
+
+.Bloque05 p {
+    font-size: .8em;
+}
+
+.Bloque05 h4 {
+    letter-spacing: .2em;
+    font-family: 'BebasNeue';
+}
+
+.Bloque06 {
+    background: url('../img/back_estra.jpg') no-repeat center bottom;
+
+    color: white;
+}
+
+.Bloque07 {
+    
+    background: url('../img/back_sl.jpg') no-repeat center top;
+    background-color: #0b0b0b;
+    color: white;
+    padding-top: 14em!important;
+}
+
+
+.text-img {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto!important;
+    height: 100px;
+    width: 100px;
+}
+
+.rombo {
+    width: 100px; 
+    height: 100px; 
+    border: 3px solid #555; 
+    background: #428bca;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.rombo img{
+    width: 100%;
+    height: auto;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+footer {
+    background: #00ff84;
+    font-family: 'BebasNeue';
+    font-size: 1em;
+    letter-spacing: .4em;
+    margin-bottom: 0!important;
+    padding-bottom: 0!important;
+}
+
+.footer-negro {
+    background: black;
+    color: white;
+}
+
+.footer-negro p{
+    padding: 1em;
+    margin: 0!important;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+.txt-verde {
+    color: #00ff84!important;
+}
+
+.manita img{
+    width: 80px;
+}
